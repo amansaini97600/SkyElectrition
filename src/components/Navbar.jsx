@@ -36,7 +36,7 @@ export default function Navbar() {
 
         {/* MENU */}
         <ul className="hidden md:flex gap-8 font-medium text-gray-700">
-          <li className="hover:text-blue-600 cursor-pointer transition">Home</li>
+          <li className="hover:text-blue-600 cursor-pointer transition"> <a href="/">Home</a></li>
           <li className="hover:text-blue-600 cursor-pointer transition">About</li>
           <li className="hover:text-blue-600 cursor-pointer transition">Services</li>
           <li className="hover:text-blue-600 cursor-pointer transition">Contact</li>

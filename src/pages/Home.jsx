@@ -9,14 +9,12 @@ import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 export default function Home() {
     return (
-        <div className="pt-[110px]">
-            <Navbar />
+        <div>
             <Hero />
             <Services />
             <ImageSlider /> 
             <Trust />
             <Reviews />
-            <Footer />
 
             <div className="fixed bottom-4 right-4 flex flex-col gap-3">
 
