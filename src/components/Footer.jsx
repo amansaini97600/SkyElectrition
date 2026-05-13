@@ -26,7 +26,6 @@ export default function Footer() {
             <li><a href="/ac-repair-chandigarh" className="hover:text-white">AC Repair</a></li>
             <li><a href="/washing-machine-repair-chandigarh" className="hover:text-white">Washing Machine Repair</a></li>
             <li><a href="/fridge-repair-chandigarh" className="hover:text-white">Fridge Repair</a></li>
-            <li><a href="#" className="hover:text-white">LED TV Repair</a></li>
           </ul>
         </div>
 
