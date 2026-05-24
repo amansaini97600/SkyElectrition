@@ -8,7 +8,7 @@ export default function ACRepair() {
       <SEO
         title="AC Repair in Chandigarh | Service Starts ₹299"
         desc="Affordable AC repair in Chandigarh. Gas refill, cooling issue, installation & more. Book now at just ₹299."
-        url="https://yourdomain.com/ac-repair-chandigarh"
+        url="https://skyTechnician.com/ac-repair-chandigarh"
       />
 
       {/* HERO SECTION */}
@@ -22,14 +22,14 @@ export default function ACRepair() {
 
         <div className="flex justify-center gap-4 flex-wrap">
           <a
-            href="tel:+919876543210"
+            href="tel:+919068431054"
             className="bg-green-500 px-6 py-3 rounded-xl flex items-center gap-2 shadow-lg hover:scale-105 transition"
           >
             <FaPhoneAlt /> Call Now
           </a>
 
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919068431054"
             target="_blank"
             className="bg-white text-green-600 px-6 py-3 rounded-xl flex items-center gap-2 shadow-lg hover:scale-105 transition"
           >
@@ -54,7 +54,7 @@ export default function ACRepair() {
           {/* PRICE + CONTENT */}
           <div className="text-center md:text-left">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
-              Service Starts at <span className="text-green-600">₹299</span>
+              Visiting Charge <span className="text-green-600">₹299</span>
             </h2>
 
             <p className="text-gray-600 mb-6">
@@ -64,14 +64,14 @@ export default function ACRepair() {
 
             <div className="flex gap-4 justify-center md:justify-start flex-wrap">
               <a
-                href="tel:+919876543210"
+                href="tel:+919068431054"
                 className="bg-green-500 text-white px-5 py-3 rounded-xl flex items-center gap-2 shadow hover:scale-105 transition"
               >
                 <FaPhoneAlt /> Call Now
               </a>
 
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919068431054"
                 target="_blank"
                 className="bg-white text-green-600 border px-5 py-3 rounded-xl flex items-center gap-2 shadow hover:scale-105 transition"
               >
@@ -143,7 +143,7 @@ export default function ACRepair() {
           Book Your AC Service Now
         </h2>
         <a
-          href="tel:+919876543210"
+          href="tel:+919068431054"
           className="bg-white text-green-600 px-6 py-3 rounded-xl font-semibold shadow hover:scale-105 transition"
         >
           Call Now

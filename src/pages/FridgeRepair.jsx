@@ -8,7 +8,7 @@ export default function FridgeRepair() {
       <SEO
         title="Fridge Repair in Chandigarh | Service Starts ₹299"
         desc="Affordable fridge repair in Chandigarh. Single door, double door, cooling issues, gas refill at just ₹299."
-        url="https://yourdomain.com/fridge-repair-chandigarh"
+        url="https://skyTechnician.com/fridge-repair-chandigarh"
       />
 
       {/* HERO */}
@@ -17,19 +17,19 @@ export default function FridgeRepair() {
           Fridge Repair in Chandigarh
         </h1>
         <p className="mb-6 text-lg">
-          Fast Repair | Expert Technicians | Starting ₹299
+          Fast Repair | Expert Technicians | Visiting Charge ₹299
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
           <a
-            href="tel:+919876543210"
+            href="tel:+919068431054"
             className="bg-green-500 px-6 py-3 rounded-xl flex items-center gap-2 shadow-lg hover:scale-105 transition"
           >
             <FaPhoneAlt /> Call Now
           </a>
 
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919068431054"
             target="_blank"
             className="bg-white text-green-600 px-6 py-3 rounded-xl flex items-center gap-2 shadow-lg hover:scale-105 transition"
           >
@@ -64,14 +64,14 @@ export default function FridgeRepair() {
 
             <div className="flex gap-4 justify-center md:justify-start flex-wrap">
               <a
-                href="tel:+919876543210"
+                href="tel:+919068431054"
                 className="bg-green-500 text-white px-5 py-3 rounded-xl flex items-center gap-2 shadow hover:scale-105 transition"
               >
                 <FaPhoneAlt /> Call Now
               </a>
 
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919068431054"
                 target="_blank"
                 className="bg-white text-green-600 border px-5 py-3 rounded-xl flex items-center gap-2 shadow hover:scale-105 transition"
               >
@@ -143,7 +143,7 @@ export default function FridgeRepair() {
           Book Your Fridge Repair Now
         </h2>
         <a
-          href="tel:+919876543210"
+          href="tel:+919068431054"
           className="bg-white text-green-600 px-6 py-3 rounded-xl font-semibold shadow hover:scale-105 transition"
         >
           Call Now

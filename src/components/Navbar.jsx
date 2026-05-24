@@ -17,11 +17,11 @@ export default function Navbar({ setOpenPopup }) {
         </div>
 
         <div className="hidden md:flex gap-6 font-semibold">
-          <a href="tel:+919876543210" className="hover:underline">
-            +91 98765 43210
+          <a href="tel:+919068431054" className="hover:underline">
+            +91 9068431054
           </a>
-          <a href="tel:+919812345678" className="hover:underline">
-            +91 98123 45678
+          <a href="tel:+919068431054" className="hover:underline">
+            +91 9068431054
           </a>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Navbar({ setOpenPopup }) {
 
         {/* LOGO (Clickable) */}
         <a href="/" className="text-2xl font-bold text-blue-600 tracking-wide">
-          SkyElectrition
+          skyTechnician
         </a>
 
         {/* DESKTOP MENU */}
@@ -72,7 +72,6 @@ export default function Navbar({ setOpenPopup }) {
 
           <li
             onClick={() => {
-              console.log("CLICK WORKING");
               setOpenPopup(true);
             }}
             className="hover:text-blue-600 cursor-pointer"
@@ -84,7 +83,7 @@ export default function Navbar({ setOpenPopup }) {
 
         {/* CALL BUTTON */}
         <a
-          href="tel:+919876543210"
+          href="tel:+919068431054"
           className="hidden md:block bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-lg transition font-semibold"
         >
           Call Now
@@ -138,7 +137,7 @@ export default function Navbar({ setOpenPopup }) {
 
           {/* CALL BUTTON */}
           <a
-            href="tel:+919876543210"
+            href="tel:+919068431054"
             className="bg-green-500 text-white px-4 py-2 rounded-lg text-center mt-4"
           >
             Call Now

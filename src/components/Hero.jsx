@@ -39,7 +39,7 @@ export default function Hero() {
             className="text-lg mb-6 text-gray-200"
           >
             Get expert technicians at your doorstep. Same day service
-            for AC, Fridge & LED TV repair.
+            for AC, Fridge repair.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -50,7 +50,7 @@ export default function Hero() {
             className="flex flex-wrap gap-4 mb-6"
           >
             <a
-              href="tel:+919876543210"
+              href="tel:+919068431054"
               className="flex items-center gap-2 bg-green-500 hover:bg-green-600 px-6 py-3 rounded-xl font-semibold transition"
             >
               <FaPhoneAlt />
@@ -58,7 +58,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919068431054"
               className="flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold transition"
             >
               <FaWhatsapp />

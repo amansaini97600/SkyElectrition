@@ -1,10 +1,15 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
+import ServiceModal from "./ServiceModal";
 
 import ac from "../assets/slider/image1.jpg";
 import washing from "../assets/slider/woshing2.webp";
 import fridge from "../assets/slider/fridge1.avif";
 import aiwash from "../assets/slider/woshing3.webp";
 import electronic from "../assets/slider/image4.webp";
+import doubleDoorFridge from "../assets/services/double_door_fridge.jpg";
+import acGasRefill from "../assets/services/ac-gas-refilling-services.jpg";
+import windowAc from "../assets/services/windowAcRepair.avif";
 
 export default function Services() {
   const services = [
@@ -12,32 +17,52 @@ export default function Services() {
       title: "AC Repair",
       desc: "Split & Window AC repair, gas refill, installation & service.",
       img: ac,
+      visit: 299,
+      price: 399,
     },
+    {
+      title: "Window AC Repair",
+      desc: "Window AC repair with fast doorstep service.",
+      img: windowAc,
+      visit: 299,
+      price: 399,
+    },
+    {
+      title: "AC Gas Refill",
+      desc: "AC gas filling & cooling issue repair at affordable price.",
+      img: acGasRefill,
+      visit: 299,
+      price: 399,
+    },
+
     {
       title: "Washing Machine Repair",
       desc: "Fully automatic & semi-automatic machine repair service.",
       img: washing,
+      visit: 299,
+      price: 399,
     },
     {
-      title: "Fridge Repair",
-      desc: "Single & double door fridge repair with fast service.",
+      title: "Double Door Fridge Repair",
+      desc: "Expert repair for double door refrigerators.",
+      img: doubleDoorFridge,
+      visit: 299,
+      price: 399,
+    },
+    {
+      title: "Single Door Fridge Repair",
+      desc: "Quick repair service for single door fridge.",
       img: fridge,
-    },
-    {
-      title: "AI Washing Machine",
-      desc: "Advanced AI washing machine repair by expert technicians.",
-      img: aiwash,
-    },
-    {
-      title: "All Electronics Repair",
-      desc: "TV, LED, cooler & all electronic appliances repair service.",
-      img: electronic,
+      visit: 299,
+      price: 399,
     },
   ];
 
+  const [selectedService, setSelectedService] = useState(null);
+
   return (
     <div className="py-16 bg-gray-50 px-6 text-center">
-      
+
       {/* Heading */}
       <h2 className="text-3xl font-bold mb-2">
         Our Services
@@ -58,11 +83,13 @@ export default function Services() {
 
             {/* Image */}
             <div className="overflow-hidden">
-              <img
-                src={service.img}
-                alt={service.title}
-                className="w-full h-[200px] object-cover hover:scale-110 transition duration-500"
-              />
+              <a href={service.serviceLink}>
+                <img
+                  src={service.img}
+                  alt={service.title}
+                  className="w-full h-[200px] object-cover hover:scale-110 transition duration-500"
+                />
+              </a>
             </div>
 
             {/* Content */}
@@ -74,9 +101,16 @@ export default function Services() {
               <p className="text-gray-600 text-sm mb-4">
                 {service.desc}
               </p>
+              <button
+                onClick={() => setSelectedService(service)}
+                className="text-green-600 font-semibold hover:underline"
+              >
+                More Details
+              </button>
+              <br />
 
               <a
-                href="tel:+919876543210"
+                href="tel:+919068431054"
                 className="text-blue-600 font-semibold hover:underline"
               >
                 Book Service →
@@ -86,7 +120,14 @@ export default function Services() {
           </motion.div>
         ))}
 
+        <ServiceModal
+          isOpen={!!selectedService}
+          onClose={() => setSelectedService(null)}
+          service={selectedService || {}}
+        />
+
       </div>
     </div>
+
   );
 }

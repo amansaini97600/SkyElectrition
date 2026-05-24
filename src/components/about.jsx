@@ -6,15 +6,15 @@ export default function About() {
   return (
     <div className="bg-gray-50">
       <SEO
-        title="About SkyElectrition | AC, Fridge & Washing Machine Repair Chandigarh"
-        desc="SkyElectrition provides expert AC, fridge, and washing machine repair services in Chandigarh at affordable prices."
-        url="https://yourdomain.com/about"
+        title="About skyTechnician | AC, Fridge & Washing Machine Repair Chandigarh"
+        desc="skyTechnician provides expert AC, fridge, and washing machine repair services in Chandigarh at affordable prices."
+        url="https://skyTechnician.com/about"
       />
 
       {/* HERO */}
       <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-16 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          About SkyElectrition
+          About skyTechnician
         </h1>
         <p className="text-lg">
           Trusted Repair Service in Chandigarh
@@ -29,7 +29,7 @@ export default function About() {
           <div>
             <img
               src={teamImage} // apni image daal dena
-              alt="SkyElectrition Team"
+              alt="skyTechnician Team"
               className="rounded-2xl shadow-lg w-full h-[250px] md:h-[350px] object-cover"
             />
           </div>
@@ -41,7 +41,7 @@ export default function About() {
             </h2>
 
             <p className="text-gray-600 mb-4">
-              SkyElectrition Chandigarh ka ek trusted repair service provider hai
+              skyTechnician Chandigarh ka ek trusted repair service provider hai
               jo AC repair, washing machine repair aur fridge repair me expert hai.
               Humara goal hai ki har customer ko fast aur affordable service mile.
             </p>
@@ -81,7 +81,7 @@ export default function About() {
       {/* WHY CHOOSE US */}
       <div className="bg-white py-12 px-6">
         <h2 className="text-2xl font-bold text-center mb-8">
-          Why Choose SkyElectrition?
+          Why Choose skyTechnician?
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -112,14 +112,14 @@ export default function About() {
 
         <div className="flex justify-center gap-4 flex-wrap">
           <a
-            href="tel:+919876543210"
+            href="tel:+919068431054"
             className="bg-white text-green-600 px-6 py-3 rounded-xl flex items-center gap-2 shadow hover:scale-105 transition"
           >
             <FaPhoneAlt /> Call Now
           </a>
 
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919068431054"
             target="_blank"
             className="bg-black text-white px-6 py-3 rounded-xl flex items-center gap-2 shadow hover:scale-105 transition"
           >

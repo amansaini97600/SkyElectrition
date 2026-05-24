@@ -9,7 +9,7 @@ export default function Footer() {
         {/* 🔵 COMPANY */}
         <div>
           <h2 className="text-xl font-bold text-white mb-4">
-            ServiceOnWheel
+            skyTechnician
           </h2>
           <p className="text-sm">
             We provide expert AC, Fridge, Washing Machine & all electronic repair services in Chandigarh with fast and reliable service.
@@ -38,11 +38,12 @@ export default function Footer() {
           <ul className="space-y-3 text-sm">
             <li className="flex items-center gap-2">
               <FaPhoneAlt /> 
-              <a href="tel:+919876543210">+91 98765 43210</a>
+              <a href="tel:+919068431054">+91 9068431054,</a>
+              <a href="tel:+919068431054">+91 9068431054</a>
             </li>
 
             <li className="flex items-center gap-2">
-              <FaEnvelope /> support@email.com
+              <FaEnvelope /> skyelectrition@gmail.com
             </li>
 
             <li className="flex items-center gap-2">
@@ -66,7 +67,7 @@ export default function Footer() {
               <FaInstagram />
             </a>
 
-            <a href="https://wa.me/919876543210" className="bg-gray-800 p-3 rounded-full hover:bg-green-500 transition">
+            <a href="https://wa.me/919068431054" className="bg-gray-800 p-3 rounded-full hover:bg-green-500 transition">
               <FaWhatsapp />
             </a>
           </div>
@@ -76,7 +77,7 @@ export default function Footer() {
 
       {/* 🔻 BOTTOM BAR */}
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
-        © 2026 ServiceOnWheel | All Rights Reserved
+        © 2026 skyTechnician | All Rights Reserved
       </div>
 
     </footer>

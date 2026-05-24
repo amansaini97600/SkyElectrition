@@ -19,14 +19,14 @@ export default function Home() {
             <div className="fixed bottom-4 right-4 flex flex-col gap-3">
 
                 <a
-                    href="tel:+919876543210"
+                    href="tel:+919068431054"
                     className="bg-green-500 p-4 rounded-full text-white shadow-lg"
                 >
                     <FaPhoneAlt />
                 </a>
 
                 <a
-                    href="https://wa.me/919876543210"
+                    href="https://wa.me/919068431054"
                     className="bg-blue-500 p-4 rounded-full text-white shadow-lg"
                 >
                     <FaWhatsapp />
